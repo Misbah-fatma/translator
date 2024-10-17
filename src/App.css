@@ -1,0 +1,302 @@
+
+.file-upload {
+  margin-bottom: 20px;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-top: 20px;
+}
+
+.upload-button:hover {
+  background-color: #4fa3d1;
+}
+
+.green-message {
+  color: green;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.preview-container {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.file-preview {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#downloadContainer {
+  margin-top: 20px;
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-top: 20px;
+}
+
+.download-button:hover {
+  background-color: #4fa3d1;
+}
+
+/* Add this to your CSS file */
+.navmenu a {
+  text-decoration: none;
+}
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+/* General styles */
+.header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.navmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navmenu ul li {
+  margin: 0 10px;
+}
+
+.navmenu ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+}
+
+/* Button styles */
+.btn-getstarted {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-getstarted:hover {
+  background-color: #0056b3;
+}
+
+.username {
+  margin-right: 20px;
+}
+
+/* Mobile styles */
+.mobile-nav-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navmenu ul {
+    display: none; /* Hide menu initially */
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+  }
+
+  .navmenu ul li {
+    margin: 0;
+    text-align: center;
+  }
+
+  .navmenu ul li a {
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .navmenu.open ul {
+    display: flex; /* Show menu when open */
+  }
+
+  .mobile-nav-toggle {
+    display: block; /* Show the hamburger icon */
+    margin-left: auto;
+  }
+
+  .btn-getstarted {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+
+/* Add spacing between Nav links */
+.nav-link-spacing {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+/* Optional: Add hover effect to nav links */
+.nav-link-spacing:hover {
+  color: #0056b3;
+}
+
+/* Additional custom styles for other elements */
+.username {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.nav-link-custom {
+  color: #2487ce;
+  padding: 18px 15px;
+  font-size: 16px;
+  font-family: var(--nav-font); /* Use your custom font variable */
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  transition: color 0.3s ease; /* Transition for smooth color change on hover */
+}
+
+.button1{
+color: var(--contrast-color);
+background: var(--accent-color);
+font-size: 14px;
+padding: 8px 25px;
+margin: 0 0 0 30px;
+border-radius: 4px;
+transition: 0.3s;
+}
+
+
+
+.img-wrapper {
+  position: relative;
+
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.step-box {
+  background-color: #f8f9fa; /* Light background similar to the screenshot */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.step-box:hover {
+  transform: translateY(-10px); /* Hover effect to lift the card */
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #4c61e3; /* Blue color matching the screenshot */
+}
+
+.text-muted {
+  color: #6c757d; /* Lighter color for secondary text */
+}
+
+@media (max-width: 768px) {
+  .step-box {
+    margin-bottom: 30px;
+  }
+}
+
+
+a {
+  /* padding: 10px 20px;       */
+  text-decoration: none;   /* Removes the underline */
+  border-radius: 5px;      /* Slightly rounds the corners */
+  font-size: 16px;         /* Increases the font size */
+  font-weight: bold;       /* Makes the text bold */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
